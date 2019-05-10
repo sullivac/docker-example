@@ -1,0 +1,33 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "description": "Hello, world Express app",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "lint": "standard --fix --verbose",
+    "prettier": "prettier-standard \"*.js\" \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullivac/docker-example.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Corey Sullivan <sullivac@fastmail.fm>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sullivac/docker-example/issues"
+  },
+  "homepage": "https://github.com/sullivac/docker-example#readme",
+  "devDependencies": {
+    "prettier-standard": "^9.1.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
